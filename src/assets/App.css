@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.add-button {
+  margin-top: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.remove-button {
+  margin-top: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.signUp-button {
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.list-group {
+  padding: 3px;
+}
+
+.list-group-item {
+  word-wrap: break-word;
+  display: grid;
+
+  width: auto;
+  padding: 3px;
+  margin: 10px;
+
+  border-style: solid;
+  border-radius: 10px;
+  font-size: large;
+
+  background-color: rgb(111, 116, 119);
+  color: rgb(255, 255, 255);
+}
